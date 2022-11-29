@@ -10,6 +10,7 @@ Before following the steps below you need Maven installed. You can follow [this]
  2. Open the project in your favorite IDEA
  3. Run the following commands:
 	> mvn clean install
+	
 	> mvn spring-boot:run
 
 ## Project structure
