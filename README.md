@@ -31,8 +31,8 @@ The main source code is in the src folder. I have added three folders inside the
 
 
 ### Project details ###
-- Language: Java 17 (soon to come: HTML, CSS and Javascript)
-- Programming approach: OOP and functional programmering with Streams api
-- Framework: Spring boot
-- Build tool: Maven
-- Topics to be covered: Azure, CI/CD pipelines, Junit5, Security & Authentication, SQL
+- **Language**: Java 17 (soon to come: HTML, CSS and Javascript)
+- **Programming approach**: OOP and functional programmering with Streams api
+- **Framework**: Spring boot
+- **Build tool**: Maven
+- **Topics to be covered**: Azure, CI/CD pipelines, Junit5, Security & Authentication, SQL
