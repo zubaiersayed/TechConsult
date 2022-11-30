@@ -17,7 +17,7 @@ Before following the steps below you need Maven installed. You can follow [this]
 
 The main source code is in the src folder. I have added three folders inside the no/sas/ folder which includes controller, models and service. The pom.xml file in the main folder includes all the dependencies for the project.
 
- - Controller: 
+- Controller: 
 	 - Contains the request mapping for different pages
 - Models:
 	- Models contain the basic Java objects that will be used in the project
@@ -28,3 +28,11 @@ The main source code is in the src folder. I have added three folders inside the
 - Junit5 tests
 - CI/CD pipeline
 - Simple frontend page based on HTML and CSS
+
+
+### Project details ###
+- Language: Java 17 (soon to come: HTML, CSS and Javascript)
+- Programming approach: OOP and functional programmering with Streams api
+- Framework: Spring boot
+- Build tool: Maven
+- Topics to be covered: Azure, CI/CD pipelines, Junit5, Security & Authentication, SQL
