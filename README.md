@@ -40,5 +40,5 @@ The main source code is in the src folder. I have added three folders inside the
 ## Branching strategy ##
 - main branch is the main branch where all PR will get merged
 - When solving an issue create a branch with the same issue name and number, for example if I was solving issue called ISSUE01 I would create a branch with that name.
-`git checkout -b ISSUE01`
+  - `git checkout -b ISSUE01`
 
