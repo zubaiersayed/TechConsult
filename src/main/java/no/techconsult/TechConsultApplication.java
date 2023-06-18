@@ -1,13 +1,13 @@
-package no.sas;
+package no.techconsult;
 
 import org.springframework.boot.SpringApplication;
 import org.springframework.boot.autoconfigure.SpringBootApplication;
 
 @SpringBootApplication
-public class FlyselskapetSasApplication {
+public class TechConsultApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(FlyselskapetSasApplication.class, args);
+		SpringApplication.run(TechConsultApplication.class, args);
 	}
 
 }

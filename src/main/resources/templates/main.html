@@ -1,0 +1,45 @@
+<!DOCTYPE html>
+<html xmlns="http://www.w3.org/1999/xhtml"
+      xmlns:th="http://www.thymeleaf.org">
+
+<head>
+    <meta charset="UTF-8">
+    <title>TechConsult - Innovate. Transform. Succeed.</title>
+</head>
+<body>
+<h1 th:text="${test}"></h1>
+    <nav>
+        <div id="logo"></div>
+        <a>Book appointment</a>
+        <a>Technologies</a>
+        <a>Past projects</a>
+        <a>About us</a>
+    </nav>
+    <main>
+        <form>
+            <label>First name: <input type="text"></label>
+            <label>Last name: <input type="text"></label>
+            <label>Phone number: <input type="number"></label>
+            <label>When: <input type="date"></label>
+            <button id="search">Search</button>
+        </form>
+    </main>
+    <div>
+        <h2>TechConsult - A journey you wont forget</h2>
+        <h3>Create your own team</h3>
+        <table>
+            <tr>
+                <th>Name</th>
+                <th>Field</th>
+                <th>Years of experience</th>
+            </tr>
+            <tr th:each="consultant : ${consultants} ">
+                <td th:text="${consultant.getFirstName + ' ' + consultant.getLastName}"></td>
+                <td th:text="${consultant.getField}"></td>
+                <td th:text="${consultant.getYearsOfExperience}"></td>
+            </tr>
+        </table>
+        <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry's standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book. It has survived not only five centuries, but also the leap into electronic typesetting, remaining essentially unchanged. It was popularised in the 1960s with the release of Letraset sheets containing Lorem Ipsum passages, and more recently with desktop publishing software like Aldus PageMaker including versions of Lorem Ipsum.</p>
+    </div>
+</body>
+</html>
