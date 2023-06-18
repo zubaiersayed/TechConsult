@@ -1,3 +1,4 @@
+# TO BE UPDATED
 # Welcome to TechConsult!
 
 This project is a simple web project about a norwegian flight company called Sas and their booking system (my version). The main reason I created this project was to dig deeper into the basics of **Spring Boot, JUnit5, SQL and Log4j**. I might also add other topics into this project as I continue to develop it, and one of my goals is to involve the cloud, spesifically **Microsoft Azure** somehow.
